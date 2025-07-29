@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Dosis", sans-serif;
+}
+
+.navbar-text {
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.navbar {
+  background-color: #f8f9fa;
+  /* Light background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+  /* Subtle shadow */
+}
+
+.navbar-nav .nav-link {
+  color: #333;
+  /* Default link color */
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  /* Adjust padding as needed */
+}
+
+.navbar-nav .nav-link.active {
+  color: #e4002b;
+  /* Pizza Hut red for active link */
+  border-bottom: 2px solid #e4002b;
+  /* Underline for active */
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #e4002b;
+  /* Hover color */
+}
+
+.form-check.form-switch {
+  margin-left: 1rem;
+}
+
+.form-check-input:checked {
+  background-color: #e4002b;
+  /* Red toggle switch when checked */
+  border-color: #e4002b;
+}
+
+.card1:hover {
+  box-shadow: 4px 4px 4px black;
+  transform: scale(1.1);
+  transition: 0.1s;
+}
+
+.card2:hover {
+  box-shadow: 4px 4px 4px black;
+  transform: scale(1.1);
+  transition: 0.1s;
+}
+
+.card3:hover {
+  box-shadow: 4px 4px 4px black;
+  transform: scale(1.1);
+  transition: 0.1s;
+}
+
+.card4:hover {
+  box-shadow: 4px 4px 4px black;
+  transform: scale(1.1);
+  transition: 0.1s;
+}
+
+.card5:hover {
+  box-shadow: 4px 4px 4px black;
+  transform: scale(1.1);
+  transition: 0.1s;
+}
+
+.card6:hover {
+  box-shadow: 4px 4px 4px black;
+  transform: scale(1.1);
+  transition: 0.1s;
+}
+
+.card7:hover {
+  box-shadow: 4px 4px 4px black;
+  transform: scale(1.1);
+  transition: 0.1s;
+}
+
+.card8:hover {
+  box-shadow: 4px 4px 4px black;
+  transform: scale(1.1);
+  transition: 0.1s;
+}
+
+.card9:hover {
+  box-shadow: 4px 4px 4px black;
+  transform: scale(1.1);
+  transition: 0.1s;
+}
+
+.card10:hover {
+  box-shadow: 4px 4px 4px black;
+  transform: scale(1.1);
+  transition: 0.1s;
+}
+
+.card11:hover {
+  box-shadow: 4px 4px 4px black;
+  transform: scale(1.1);
+  transition: 0.1s;
+}
+
+.card12:hover {
+  box-shadow: 4px 4px 4px black;
+  transform: scale(1.1);
+  transition: 0.1s;
+}
+
+.card13:hover {
+  box-shadow: 4px 4px 4px black;
+  transform: scale(1.1);
+  transition: 0.1s;
+}
+
+.card14:hover {
+  box-shadow: 4px 4px 4px black;
+  transform: scale(1.1);
+  transition: 0.1s;
+}
+
+.card15:hover {
+  box-shadow: 4px 4px 4px black;
+  transform: scale(1.1);
+  transition: 0.1s;
+}
+
+.card16:hover {
+  box-shadow: 4px 4px 4px black;
+  transform: scale(1.1);
+  transition: 0.1s;
+}
+
+.card17:hover {
+  box-shadow: 4px 4px 4px black;
+  transform: scale(1.1);
+  transition: 0.1s;
+}
+
+.card18:hover {
+  box-shadow: 4px 4px 4px black;
+  transform: scale(1.1);
+  transition: 0.1s;
+}
+
+.card19:hover {
+  box-shadow: 4px 4px 4px black;
+  transform: scale(1.1);
+  transition: 0.1s;
+}
+
+/* @media (max-width:992px){
+   #welcome h4{
+    font-size: 30px;
+    
+    font-weight: 900;
+}
+/* .header {
+    padding: 1.5rem 10%;
+  } */
+/* .navbar{
+     font-size: 0.9rem; 
+  }
+} */
+@media (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+    /* Allow items to wrap to the next line */
+    justify-content: space-between;
+    /* Align items */
+  }
+
+  .navbar-links {
+    /* Hide by default on mobile, will be shown via JavaScript */
+    display: none;
+    flex-direction: column;
+    /* Stack links vertically */
+    width: 100%;
+    /* Take full width */
+    background-color: #f0f0f0;
+    /* Different background for dropdown */
+    padding: 10px 0;
+  }
+
+  .navbar-links.active {
+    /* Class added by JavaScript when hamburger is clicked */
+    display: flex;
+  }
+
+  .navbar-links li {
+    margin: 10px 20px;
+    /* Adjust spacing for vertical links */
+  }
+
+  .hamburger-menu {
+    display: block;
+    /* Show hamburger menu on smaller screens */
+  }
+
+  .navbar-brand {
+    flex-grow: 1;
+    /* Allow brand to take available space */
+  }
+}
+.navebar a{
+background-color: white;
+color: black;
+}
+.navbar a:hover{
+background-color: rgb(232, 19, 19);
+ color: rgb(252, 249, 249);
+}
+@media (max-width:992px){
+   #welcome h4{
+    font-size: 30px;
+    
+    font-weight: 900;
+}
+.header {
+    padding: 1.5rem 10%;
+  }
+  .navbar a {
+    font-size: 0.9rem;
+  }
+}
